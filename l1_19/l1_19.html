@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>l1_19</title>
+    <link rel="stylesheet" href="./l1_19.css" />
+    <script
+      src="https://vk.com/js/api/openapi.js?169"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <a
+      href="https://oauth.vk.com/authorize?client_id=51773212&display=page&redirect_uri=http://127.0.0.1:5501/l1_19/l1_19.html&scope=offline&response_type=token"
+      >Авторизация в ВК</a
+    >
+    <ul id="container" class="container"></ul>
+    <template id="vk-post">
+      <li class="item">
+        <img class="img" src="#" />
+        <p class="text"></p>
+      </li>
+    </template>
+
+    <script type="text/javascript">
+      VK.init({
+        apiId: 51773212,
+      });
+    </script>
+  </body>
+  <script src="./l1_19.js"></script>
+</html>

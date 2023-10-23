@@ -1,0 +1,35 @@
+.container {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 600px;
+    height: 98vh;
+    background-color: aqua;
+    overflow-y: scroll;
+}
+
+.item {
+    margin: 0 auto;
+    list-style: none;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+    background-color: rgb(4, 0, 255);
+}
+
+.img {
+    margin: 0;
+    height: 400px;
+    max-width: 590px;
+    width: 100%;
+}
+
+.text {
+    text-align: start;
+    max-width: 190px;
+}

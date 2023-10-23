@@ -1,0 +1,13 @@
+.result-block {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    color: black;
+    
+}

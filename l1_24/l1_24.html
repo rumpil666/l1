@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>l1_24</title>
+    <link rel="stylesheet" href="./l1_24.css" />
+  </head>
+
+  <body>
+    <div>
+      <button class="button sort" id="fname">Имя</button>
+      <button class="button sort" id="lname">Фамилия</button>
+      <button class="button sort" id="tel">Телефон</button>
+      <button class="button sort" id="address">адресс</button>
+      <button class="button sort" id="city">Город</button>
+      <button class="button sort" id="state">Штат</button>
+      <button class="button sort" id="zip">Почтовый индекс</button>
+    </div>
+    <ul id="container" class="container"></ul>
+
+    <template id="template">
+      <li class="item">
+        <p class="text fname"></p>
+        <p class="text lname"></p>
+        <p class="text tel"></p>
+        <p class="text address"></p>
+        <p class="text city"></p>
+        <p class="text state"></p>
+        <p class="text zip"></p>
+      </li>
+    </template>
+    <div class="button-container">
+      <button class="button test minus">Предыдущаю страница</button>
+      <span class="number">1</span>
+      <button class="button plus">Следующая страница</button>
+    </div>
+  </body>
+  <script type="module" src="./l1_24.js"></script>
+</html>
